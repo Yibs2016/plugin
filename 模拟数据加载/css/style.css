@@ -1,0 +1,57 @@
+  article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}button,html,input,select,textarea{font-family:Aril,"微软雅黑"}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.67em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:after,q:before{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}dl,menu,ol,ul{margin:0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0}nav ol,nav ul{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}a{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+
+.icon-pause{background-image: url(../images/music.png); background-position: 0px 0px; width: 70px; height: 70px;}
+.icon-play{background-image: url(../images/music.png); background-position: -80px 0px; width: 70px; height: 70px;}
+.music{position: absolute; top: 57px; right: 84px; z-index: 8;}
+.bgcover{display: none; position: fixed; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; background: url(../images/bg.jpg) repeat; z-index: 9;}
+.show{display: block;}
+html,body{height: 100%;}
+p{margin: 0;}
+.main{position: relative;width: 100%;height: 100%;max-width: 750px;margin: 0 auto;
+  background: url(../images/bg.jpg) repeat; color: #00ffff; overflow: hidden;}
+.bg1{position: absolute; top: 0; left: 0;text-align: center;width: 100%;height: 100%;background: url(../images/bg1.png) no-repeat;}
+.bg2{text-align: center;width: 100%;min-height:1217px;background: #0f1e35 url(../images/bg2.jpg) no-repeat; font-size: 34px;}
+
+
+
+.loading{position: absolute; top: 40%; left: 50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%);display: inline-block;background: #fff url(../images/1.jpg) 20px 310px no-repeat;font-size: 0;line-height: 0;}
+.hand{padding-top: 420px;text-align: center;font-size: 34px;color: #5b2f18;}
+.hand img{margin-bottom: 20px;}
+.video{display: block; margin: 0 auto; height: 100%; width: 100%;}
+
+
+.dataCon03{font-size: 24px; line-height: 41px; color: #00ffc0; padding: 0 54px;}
+.dataCon03 .title{font-size: 38px; font-weight: bold; padding: 88px 0 25px;}
+.dataCon03 .txt{text-align: left; padding-bottom: 60px;}
+.seeBtn{display: block; margin:5px auto 0; text-decoration: none; text-align: center;
+font-size: 30px; background: #00ffc0; color: #0f1e36; height: 64px; line-height: 64px;
+ border-radius: 10px;
+ width: 280px;
+}
+.dataCon04{color: #00ffff; padding: 0 40px; font-size: 24px;}
+.dataCon04 .title{font-size: 38px; font-weight: bold; padding: 88px 0 25px;}
+.dataCon04 .h4{font-size: 30px; padding-top: 10px;}
+.dataCon04 table{width: 100%; text-align: left;}
+.dataCon04 table td:first-child{padding-right: 35px;}
+.dataCon04 table td{padding-bottom: 18px; vertical-align: top;}
+.dataCon04 .box{position: relative;border: 4px solid #00ffc0; border-radius: 20px; text-align: left; padding: 25px 25px 15px; color: #00ffc0; font-size: 30px; margin-top: 65px;}
+.dataCon04 .box .title{text-align: center; padding: 0;}
+.dataCon04 .white{color: #fff; text-decoration: none;}
+.dataCon04 .box p{margin: 30px auto;}
+.dataCon04 .box .ha{position: absolute;top:-122px;right: -10px;}
+
+.hot{margin: 10px auto;}
+.hotlist{text-align: right; width: 457px; margin: 0 auto;height: 760px;overflow: auto;}
+.hotlist a{position: relative; display: inline-block; width: 100%;text-decoration: none;}
+.hotlist span{display: inline-block; color: #5fffe7; font-size: 20px; line-height: 40px;}
+.hotlist .tosend{text-align: center; background: #5fffe7; border-radius: 10px; color: #10004b; width: 80px; height: 30px; margin-left: 10px; line-height: 30px; font-size: 18px;}
+.name{position: absolute; top: 0; left: 0;}
+.ova{height: 630px; overflow: auto; margin-bottom: 20px;}
+@-webkit-keyframes fadeIn{from{opacity: 0;} to{opacity: 1;}}
+@keyframes fadeIn{from{opacity: 0;} to{opacity: 1;}}
+.fadeIn{-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-name: fadeIn; animation-name: fadeIn;}
+.animated{-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
+@-webkit-keyframes fadeInUp{from{opacity: 0; -webkit-transform: translate3d(0, 100%, 0); transform: translate3d(0, 100%, 0);} to{opacity: 1; -webkit-transform: none; transform: none;}}
+@keyframes fadeInUp{from{opacity: 0; -webkit-transform: translate3d(0, 100%, 0); transform: translate3d(0, 100%, 0);} to{opacity: 1; -webkit-transform: none; transform: none;}}
+.fadeInUp{-webkit-animation-name: fadeInUp; animation-name: fadeInUp;}
